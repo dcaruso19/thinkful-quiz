@@ -13,6 +13,13 @@ h1{
 text-align:center;
 font-size: 3.5rem;
 color: #90F;
+display: inline-block;
+padding-left: 10rem;
+padding-right: 8rem;
+}
+
+img.record{
+	float: right;
 }
 
 h4{
@@ -75,6 +82,11 @@ p.missed-8{
 }
 p.missed-9{
 	font-size: 16px;
+}
+
+img{
+	max-width: 10rem;
+	max-height: 7rem;
 }
 
 .start {
