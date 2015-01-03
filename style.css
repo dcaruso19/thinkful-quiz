@@ -1,0 +1,159 @@
+body{
+font-family: sans-serif;
+}
+
+#wrapper { 
+width:1250px;
+margin:20px auto;
+background: #B1B1B1;
+padding-bottom: 20px;
+}
+
+h1{
+text-align:center;
+font-size: 3.5rem;
+color: #90F;
+}
+
+h4{
+	text-align:center;
+}
+
+label{
+	font-size: 20px;
+	display: block;
+	text-align: center;
+	margin-top: 1rem;
+}
+
+h3{
+	margin-top:4rem;
+	text-align: center;
+	margin-bottom: 3rem;
+	font-size: 24px;
+}
+
+h3.result{
+	color: green;
+}
+
+p{
+	font-weight: bold;
+	/* margin-top: 4rem; */
+	font-size: 2rem;
+	text-align: center;
+	color: #F00;
+
+}
+
+p.missed-0{
+	font-size: 16px;
+}
+p.missed-1{
+	font-size: 16px;
+}
+p.missed-2{
+	font-size: 16px;
+}
+p.missed-3{
+	font-size: 16px;
+}
+p.missed-4{
+	font-size: 16px;
+}
+p.missed-5{
+	font-size: 16px;
+}
+p.missed-6{
+	font-size: 16px;
+}
+p.missed-7{
+	font-size: 16px;
+}
+p.missed-8{
+	font-size: 16px;
+}
+p.missed-9{
+	font-size: 16px;
+}
+
+.start {
+background: #2ECC71;
+    color: #FFFFFF;
+    cursor: pointer;
+    letter-spacing: 1px;
+    padding: 10px 0;
+border-radius: 50px;
+border: 3px solid #fff;
+color: #fff;
+width:25%;
+font-weight: 700;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+.start:active {
+border-color: #17954c;
+color: #17954c;
+}
+
+.start:hover {
+background: #24b662;
+}
+
+.next {
+background: #0B9126;
+    color: #FFFFFF;
+    cursor: pointer;
+    letter-spacing: 1px;
+    padding: 10px 0;
+border-radius: 50px;
+border: 3px solid #fff;
+color: #fff;
+margin-top:50px;
+display:block;
+width:25%;
+display: block;
+margin-left: auto;
+margin-right: auto;
+font-weight: 700;
+}
+
+.next:active {
+border-color: #03FF4A;
+color: #222;
+}
+
+.next:hover {
+background: #0BC02F;
+}
+
+.reset {
+border: none;
+background: none;
+cursor: pointer;
+padding: 10px 40px;
+display: inline-block;
+margin: 15px 30px;
+text-transform: uppercase;
+letter-spacing: 1px;
+outline: none;
+-webkit-transition: all 0.3s;
+-moz-transition: all 0.3s;
+transition: all 0.3s;
+border-radius: 40px;
+background: none repeat scroll 0 0 #EB00FF;
+color: #FFFFFF;
+}
+
+.reset:hover {
+box-shadow: 0 4px #000;
+top: 2px;
+
+}
+
+.reset:active {
+box-shadow: 0 0 #ab3c3c;
+top: 6px;
+}
